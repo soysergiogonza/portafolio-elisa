@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-color: linear-gradient(135deg, #fad7a1 0%, #e96d71 100%);
+  /*Tipos de fuente*/
+  --family-primary: "Poppins", sans-serif;
+  --family-second: "Oxygen", sans-serif;
+  /*Botones*/
+  --bg-btn: #42e2b8;
+  --border-btn: 2px solid #0f0a0a;
+  --text-logo: #0f0a0a;
+  --text-links: #0f0a0a;
+}
+body {
+  background: var(--bg-color);
+  width: 100vw;
+  height: 300vh;
+}
+
+header {
+  width: 100vw;
+  height: 81px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 25px;
+  color: #000;
+  margin-left: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: var(--family-primary);
+  font-weight: 900;
+}
+header nav {
+  display: none;
+}
+button {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: var(--family-second);
+  background: var(--bg-btn);
+  padding: 13px 24px;
+  border-radius: 90px;
+  border: var(--border-btn);
+  font-weight: 700;
+  margin-right: 20px;
+}
+@media screen and (min-width: 768px) {
+  header nav {
+    display: block;
+  }
+  header nav ul {
+    display: flex;
+    list-style: none;
+  }
+  header nav ul li {
+    padding: 30px;
+  }
+  header nav ul li a {
+    color: var(--text-links);
+    text-decoration: none;
+    text-transform: uppercase;
+    opacity: 0.5;
+  }
+  .active {
+    opacity: 1;
+  }
+}

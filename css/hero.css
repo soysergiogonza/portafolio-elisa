@@ -1,0 +1,60 @@
+main {
+  /*background-color: red;*/
+  max-width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+}
+.hero {
+  max-width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  /*background-color: red;*/
+  margin: 0 auto;
+}
+.hero .imagen{
+  /*position: absolute;*/
+  max-width: 100%;
+  /*min-width: 100%;*/
+  /*background-color: red;*/
+}
+.hero .imagen img{
+width: 100%;
+}
+.hero .text{
+  max-width: 100%;
+}
+.hero .text h1 {
+  font-size: 59px;
+  font-weight: 700;
+  font-family: var(--family-second);
+}
+.hero .text h1 span {
+  font-size: 48px;
+  font-weight: 700;
+}
+.hero .text p {
+  font-size: 16px;
+  font-family: var(--family-second);
+  font-weight: 400;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.hero .text i {
+  margin-top: 16px;
+}
+.hero .text i span {
+  font-family: var(--family-second);
+  font-weight: 700;
+  margin-left: 16px;
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .hero .imagen{
+    width: 50%;
+  }
+}
