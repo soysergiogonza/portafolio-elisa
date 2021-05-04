@@ -1,4 +1,14 @@
 @import "header.css";
 @import "hero.css";
 @import "projects.css";
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap");
 
+:root {
+  --bg-color: linear-gradient(135deg, #fad7a1 0%, #e96d71 100%);
+  --family-primary: "Poppins", sans-serif;
+  --family-second: "Oxygen", sans-serif;
+  --bg-btn: #42e2b8;
+  --border-btn: 2px solid #0f0a0a;
+  --text-logo: #0f0a0a;
+  --text-links: #0f0a0a;
+}
