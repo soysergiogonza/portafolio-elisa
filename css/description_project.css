@@ -1,0 +1,22 @@
+.description_project {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 700px;
+  margin: 50px auto;
+  gap: 50px;
+}
+
+.description_project p {
+  font-size: 24px;
+  font-family: var(--family-second);
+  text-align: center;
+  font-weight: 700;
+}
+.description_project p:first-child {
+  font-weight: 400;
+}
+.description_project i {
+  font-size: 64px;
+}
