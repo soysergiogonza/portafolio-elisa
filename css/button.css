@@ -27,7 +27,7 @@
   position: relative;
   font-size: 24px;
 }
-.button .second_btn {
+.second_btn {
   background-color: var(--bg-btn);
 }
 @media screen and (min-width: 64rem) {

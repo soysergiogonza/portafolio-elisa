@@ -6,7 +6,7 @@
   flex-direction: column;
   /*background-color: red;*/
   margin: 0 auto;
-  gap: 50px;
+  /*gap: 50px;*/
 }
 .project__imagen {
   width: 100%;
@@ -25,14 +25,17 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   font-family: var(--family-second);
   /*background-color: red;*/
+}
+.uppercase {
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 64rem) {
   .project {
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
   }
   .project__imagen {
@@ -41,7 +44,12 @@
     /*background-color: red;*/
   }
   .project__text {
-    width: 30%;
+    width: 50%;
     /*background-color: blue;*/
+    box-sizing: border-box;
+    padding:100px;
+  }
+  .order {
+    order: 1;
   }
 }
