@@ -2,11 +2,12 @@
 @import "hero.css";
 @import "description_project.css";
 @import "project.css";
-@import "button.css";
-@import "tittle.css";
+@import "./Components/button.css";
+@import "./Components/tittle.css";
 @import "comments.css";
 @import "contact.css";
 @import "footer.css";
+@import "./Components/wrapper.css";
 
 @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap");
@@ -40,4 +41,3 @@ body {
   min-block-size: 100vh;
   /*position: relative;*/
 }
-
