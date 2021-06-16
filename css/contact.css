@@ -37,6 +37,7 @@ textarea {
   border-radius: 8px;
   border: none;
   padding:0 16px;
+  box-sizing: border-box;
 }
 textarea {
   padding-top: 16px;
