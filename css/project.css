@@ -2,7 +2,7 @@
   max-width: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   /*background-color: red;*/
   margin: 0 auto;
