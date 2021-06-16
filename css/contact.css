@@ -37,6 +37,7 @@ textarea {
   height: 50px;
   border-radius: 8px;
   border: none;
+  padding-inline: 16px;
 }
 textarea {
   height: initial;

@@ -45,6 +45,8 @@ header nav {
     text-decoration: none;
     text-transform: uppercase;
     opacity: 0.5;
+    font-family: var(--family-second);
+    font-weight: 700;
   }
   .active {
     opacity: 1;
