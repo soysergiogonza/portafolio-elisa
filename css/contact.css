@@ -9,6 +9,7 @@
 }
 .contact p {
   font-family: var(--family-second);
+  font-weight: 400;
 }
 form {
   display: flex;

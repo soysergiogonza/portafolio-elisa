@@ -49,14 +49,16 @@
 }
 .hero .text a i span {
   margin-left: 16px;
+  text-decoration: underline;
 }
+
 @media screen and (min-width: 64rem) {
   .hero {
     flex-direction: row-reverse;
     align-items: center;
   }
   /*.hero .imagen {*/
-    /*min-width: 500px;*/
-    /*min-height: 500px;*/
+  /*min-width: 500px;*/
+  /*min-height: 500px;*/
   /*}*/
 }
