@@ -34,6 +34,7 @@
 }
 html {
   height: auto;
+  scroll-behavior: smooth;
 }
 body {
   /*height: calc(100%+100px);*/
